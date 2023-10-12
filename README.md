@@ -1,3 +1,9 @@
+Proyecto para prueba tecnica para empresa Avatar.
+Para ejecutar la aplicacion clonar el repositorio, ir a la carpeta del proyecto e instalar dependencias con comando npm install
+Ejecutar comando npm run dev
+La aplicacion estara corriendo en http://localhost:8006
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
