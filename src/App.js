@@ -24,25 +24,8 @@ function App() {
   }, []);
 
 
-  function findCharactersByMovie() {
-    for (let index = 0; index < movies.length; index++) {
-      axios.get(`https://api.jikan.moe/v4/anime/${movies[index].mal_id}/characters`, {
-      })
-        .then((response) => {
-          setcharactersBymovie(response.data.data);
-          console.log("response", response.data.data)
-        })
-        .catch((error) => {
-          console.error('Error al obtener datos de películas:', error);
-        });
-
-    }
-  }
-
-
   return (
     <div className="container mx-auto">
-      <h1 className="text-3xl font-semibold text-center my-8">Películas Populares</h1>
       <div>
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
         {/* <Background */}
